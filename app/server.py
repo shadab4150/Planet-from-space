@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-Mq2yIXQpk9Jd_l0c6v516Yll83SQ2Fd'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1BPgsF3wfRx_wMsURXs2Vs6hibl50fQMe'
 export_file_name = 'export.pkl'
 
-classes = ['oak_wood','pine_wood','rosewood_wood','mahogany_wood','walnut_wood']
+classes = ['agriculture','artisinal_mine','bare_ground','blooming','clear','cloudy','cultivation','habitation','haze','partly_cloudy','primary','road','selective_logging','water']
 path = Path(__file__).parent
 
 app = Starlette()
